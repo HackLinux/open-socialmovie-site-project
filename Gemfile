@@ -51,6 +51,9 @@ gem 'sidekiq'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+# use semantic ui for the GUI
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
+
 gem 'dotenv-rails', :groups => [:development, :test]
 
 # Use Capistrano for deployment
